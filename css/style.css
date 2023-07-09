@@ -303,7 +303,7 @@ header {
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
 }
 
-.container {
+.container-cards {
     position: relative;
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
@@ -314,7 +314,7 @@ header {
     border-radius: 20px 20px 0 0;
 }
 
-.container:after {
+.container-cards:after {
     content: "";
     height: 100%;
     width: 100%;
